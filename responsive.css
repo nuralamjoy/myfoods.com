@@ -1,0 +1,641 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 240px) and (max-width: 411px) {
+
+    .nav .nav-menu {
+        display: block;
+        position: fixed;
+        top: 41px;
+        right: -100%;
+       
+       background-color: rgb(39, 39, 38);
+        height: 100vh;
+        width: 100%;
+        text-align: center;  
+        transition: 1s;  
+        z-index: 11111;
+    }
+    
+    .nav .nav-menu li a{   
+        padding: 25px 0; 
+        margin-left: 0;    
+    }
+    .nav .nav-menu li a:hover{   
+            border-left: 8px solid #ff5703;
+    }
+    .menu-btn i{
+      display: block;
+      width: 20%;
+      z-index: 1111111;
+  }
+  #click:checked ~ .nav-menu{
+      right: 0;
+      
+      
+  }
+  #click:checked ~ .menu-btn i::before{
+      content: "\f00d";
+  }
+
+
+  .nav .nav-logo {
+    width: 80%;
+    
+}
+.nav .nav-logo a img {
+    width: 30px;
+    height: 37px;
+
+}
+.nav .nav-logo a h2 {
+    font-size: 1rem;
+
+}
+.nav .nav-logo a h2 span {
+    font-size: 1.5rem;
+}
+.menu-btn i {
+    font-size: 1rem;
+}
+.nav {
+    padding: 0px 2px;
+    
+}
+.container {
+    width: 230px;
+}
+.home-content .home-text h1 {
+    font-size: 1.5rem;
+    line-height: 45px;
+   
+}
+.home-content .home-text h1 span {
+    font-size: 2.5rem;
+    display: ruby-base-container;
+    width: 220px;
+}
+.home-content .home-text h1 span span {
+    font-size: 3.5rem;
+    display: inline;
+}
+.home-content .home-text {
+
+    margin-top: 15px;
+}
+.home-content .home-text p {
+    font-size: 1rem;
+    width: 220px;
+}
+.home-content .home-text .home-btn {
+    padding: 30px 0;
+    
+}
+.home-content .home-text .home-btn a {
+    font-size: 1.5rem;
+    border-radius: 30px;
+    padding: 3px 10px;
+    
+}
+.special .special-dish h2 {
+    font-size: 1.5rem;
+}
+.popular .popular-foods h2 {
+    font-size: 1.4rem;
+   
+}
+.service .our-service h2 {
+    font-size: 1.5rem;
+
+}
+.service .our-service .service-content .service-img img {
+    width: 220px;
+    
+    height: 280px;
+}
+.service .our-service .service-content .service-text {
+    width: 220px;
+    padding: 0px 0;
+}
+.delivery .online-delivery h2 {
+    font-size: 1.4rem;
+ 
+}
+.kitchen .kitchen-exp h2 {
+    font-size: 1.5rem;
+ 
+}
+.kitchen-exp .our-chef .chef {
+    width: 220px;
+    margin-bottom: 20px;
+}
+.our-chef .chef .chef-img {
+    width: 220px;
+    height: 280px;
+    
+}
+.our-chef .chef .chef-title h3 {
+    font-size: 1.2rem;
+    
+}
+.kitchen .kitchen-exp {
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    
+}
+.review .client-review h2 {
+    font-size: 2rem;
+
+}
+.review .client-review .our-client .client {
+    width: 220px;
+  
+}
+.review .client-review .our-client .client .client-img {
+    width: 120px;
+    height: 120px;
+    margin-top: 35px;
+}
+.review .client-review .our-client .client .client-text p {
+    padding: 10px 10px 10px 10px;
+}
+.order .order-now .order-food .order-img {
+    width: 220px;
+    height: 280px;
+}
+.order .order-now .order-food .order-form {
+    width: 220px;
+    
+}
+.order .order-now .order-food .order-form .fildname .name {
+    width: 220px;
+ 
+}
+.order .order-now .order-food .order-form .fildemail .email {
+    width: 220px;
+   
+}
+.order .order-now .order-food .order-form .fildnum .num {
+    width: 220px;
+   
+}
+.order .order-now .order-food .order-form .fildfood .food-name {
+    width: 220px;
+  
+}
+.order .order-now .order-food .order-form .fildadd .address {
+    width: 220px;
+ 
+}
+.footer-sec .footer-content .contact {
+    width: 220px;
+}
+.footer-sec .footer-content .location {
+    width: 220px;
+ 
+}
+.footer-sec .footer-content .location h3 {
+    font-size: 1.4rem;
+ 
+}
+.footer-sec .footer-content .follow {
+    width: 220px;
+}
+footer .footer-sec .credit p {
+    font-size: .8rem;
+}
+footer .footer-sec .credit p a {
+    font-size: .8rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*  small devices (phones, 600px and down) */
+@media only screen and (min-width: 412px) and (max-width: 599px) {
+
+    .nav .nav-menu {
+        display: block;
+        position: fixed;
+        top: 54px;
+        right: -100%;
+       
+       background-color: rgb(39, 39, 38);
+        height: 100vh;
+        width: 100%;
+        text-align: center;  
+        transition: 1s;  
+        z-index: 11111;
+    }
+    
+    .nav .nav-menu li a{   
+        padding: 25px 0; 
+        margin-left: 0;    
+    }
+    .nav .nav-menu li a:hover{   
+            border-left: 8px solid #ff5703;
+    }
+    .menu-btn i{
+      display: block;
+      width: 20%;
+      z-index: 1111111;
+  }
+  #click:checked ~ .nav-menu{
+      right: 0;
+      
+      
+  }
+  #click:checked ~ .menu-btn i::before{
+      content: "\f00d";
+  }
+
+
+  .nav .nav-logo {
+    width: 80%;
+    
+}
+.container {
+    width: 400px;
+
+}
+.home-content .home-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+   
+}
+.home-content .home-text h1 span {
+    color: rgb(188, 255, 4);
+    font-size: 2.5rem;
+
+}
+.home-content .home-text p {
+     width: 400px;
+}
+.service .our-service .service-content .service-img img {
+    width: 400px;
+    height: 300px;
+}
+.service .our-service .service-content .service-text {
+    width: 400px;
+    padding: 0px 0;
+}
+.service .our-service .service-content {
+    margin-bottom: 0px;
+    
+}
+.kitchen-exp .our-chef .chef {
+    margin-bottom: 20px;
+
+}
+.order .order-now .order-food .order-img {
+    width: 400px;
+
+}
+.order .order-now .order-food .order-form {
+    width: 390px;
+    
+}
+.order .order-now .order-food .order-form .fildname .name {
+    width: 390px;
+
+}
+.order .order-now .order-food .order-form .fildemail .email {
+    width: 390px;
+
+}
+.order .order-now .order-food .order-form .fildnum .num {
+    width: 390px;
+
+}
+.order .order-now .order-food .order-form .fildfood .food-name {
+    width: 390px;
+
+}
+.order .order-now .order-food .order-form .fildadd .address {
+    width: 390px;
+
+}
+footer .footer-sec .footer-content {
+    /*! display: flex; 
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+    */
+   
+    
+}
+.footer-sec .footer-content .contact {
+    width: 225px;
+    margin: 0 auto;
+    display: block;
+   
+}
+.footer-sec .footer-content .location {
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.footer-sec .footer-content .follow {
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+}
+footer .footer-sec .credit p {
+    font-size: 0.8rem;
+}
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px){
+
+    .nav .nav-menu {
+        display: block;
+        position: fixed;
+        top: 54px;
+        right: -100%;
+       
+       background-color: rgb(39, 39, 38);
+        height: 100vh;
+        width: 100%;
+        text-align: center;  
+        transition: 1s;  
+        z-index: 11111;
+    }
+    
+    .nav .nav-menu li a{   
+        padding: 25px 0; 
+        margin-left: 0;    
+    }
+    .nav .nav-menu li a:hover{   
+            border-left: 8px solid #ff5703;
+    }
+    .menu-btn i{
+      display: block;
+      width: 20%;
+      z-index: 1111111;
+  }
+  #click:checked ~ .nav-menu{
+      right: 0;
+      
+      
+  }
+  #click:checked ~ .menu-btn i::before{
+      content: "\f00d";
+  }
+
+
+  .nav .nav-logo {
+    width: 80%;
+    
+}
+
+.container {
+    width: 580px;
+
+}
+.home-content .home-text h1 {
+    font-size: 2rem;
+  
+}
+.home-img .home-content {
+    padding-top: 150px;
+    
+}
+.service .our-service .service-content .service-img img {
+    width: 560px;
+    height: 300px;
+}
+.service .our-service .service-content .service-text {
+    width: 560px;
+    padding: 0px 0;
+}
+.kitchen-exp .our-chef .chef {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.our-chef .chef .chef-img {
+    width: 250px;
+
+}
+.review .client-review .our-client .client {
+    width: 250px;
+
+}
+.review .client-review .our-client .client .client-img {
+    width: 130px;
+    height: 130px;
+
+}
+.review .client-review {
+    padding-bottom: 20px;
+}
+.order .order-now .order-food .order-img {
+    width: 560px;
+
+}
+.order .order-now .order-food .order-form {
+    width: 560px;
+    
+}
+.order .order-now .order-food .order-form .fildname .name {
+    width: 275px;
+
+}
+.order .order-now .order-food .order-form .fildemail .email {
+    width: 275px;
+
+}
+.order .order-now .order-food .order-form .fildnum .num {
+    width: 275px;
+
+}
+.order .order-now .order-food .order-form .fildfood .food-name {
+    width: 275px;
+
+}
+.order .order-now .order-food .order-form .fildadd .address {
+    width: 560px;
+
+}
+.footer-sec .footer-content .contact {
+    width: 190px;
+}
+.footer-sec .footer-content .contact h3 {
+    font-size: 1.rem;
+
+}
+.footer-sec .footer-content .contact .contact-info .info1 p {
+    font-size: 1rem;
+
+}
+.footer-sec .footer-content .location {
+    width: 155px;
+}
+.footer-sec .footer-content .follow {
+    width: 109px;
+}
+.footer-sec .footer-content .location h3 {
+    font-size: 1rem;
+
+}
+.footer-sec .footer-content .location .location-info p {
+    font-size: 1rem;
+
+}
+.footer-sec .footer-content .follow h3 {
+    font-size: 1rem;
+    
+}
+.footer-sec .footer-content .follow .follow-us .follow-item a {
+    font-size: 1rem;
+    
+}
+.footer-sec .footer-content .follow .follow-us .follow-item i {
+    font-size: 1rem;
+   
+}
+
+
+
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .nav .nav-logo {
+        width: 25%;
+        
+    }
+    .nav .nav-logo a img {
+        width: 48px;
+        height: 48px;
+        
+    }
+    .nav .nav-menu  li a {
+        font-size: 1rem;
+        padding: 17px 0;
+        margin-left: 20px;
+        
+    }
+    .container {
+        width: 740px;
+       
+    }
+    .service .our-service .service-content .service-img img {
+        width: 350px;
+        height: 356px;
+    }
+    .service .our-service .service-content .service-text {
+        width: 350px;
+        padding: 0px 0;
+    }
+    .service .our-service .service-content {
+        margin-bottom: 0px;
+        
+    }
+    .delivery .online-delivery .del-procces .procces-img {
+        width: 130px;
+        height: 130px;
+
+  }
+  .delivery .online-delivery .del-procces .procces {
+    width: 130px;
+    height: 235px;
+   
+}
+.delivery .online-delivery .del-procces .procces p {
+    font-size: 1.2rem;
+    width: 130px;
+}
+.kitchen-exp .our-chef .chef {
+    margin-bottom: 20px;
+}
+.review .client-review {
+    padding-bottom: 20px;
+}
+.order .order-now .order-food .order-img {
+    width: 350px;
+    height: 407px;
+}
+.order .order-now .order-food .order-form {
+    width: 350px;
+    
+}
+.order .order-now .order-food .order-form .fildname .name {
+    width: 350px;
+
+}
+.order .order-now .order-food .order-form .fildemail .email {
+    width: 350px;
+   
+}
+.order .order-now .order-food .order-form .fildnum .num {
+    width: 350px;
+
+}
+.order .order-now .order-food .order-form .fildfood .food-name {
+    width: 350px;
+
+}
+.order .order-now .order-food .order-form .fildadd .address {
+    width: 350px;
+
+}
+.footer-sec .footer-content .contact {
+    
+    margin-left: 10px;
+}
+.footer-sec .footer-content .location {
+    width: 200px;
+}
+.footer-sec .footer-content .follow {
+    width: 200px;
+}
+
+
+
+
+
+  }
+
+
+
+
+ /* Large devices (normal laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 950px;
+       
+    }
+    .service .our-service .service-content .service-img img {
+        width: 450px;
+     
+    }
+    .service .our-service .service-content .service-text {
+        width: 450px;
+        
+    }
+    .order .order-now .order-food .order-img {
+        width: 390px;
+        
+    }
+  }
+  
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only (min-width: 1200px) and (max-width: 1500px) {}
