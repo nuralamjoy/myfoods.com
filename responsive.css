@@ -359,7 +359,7 @@ footer .footer-sec .credit p {
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/*======= Small devices (portrait tablets and large phones, 600px and up) ======*/
   @media only screen and (min-width: 600px) and (max-width: 767px){
 
     .nav .nav-menu {
